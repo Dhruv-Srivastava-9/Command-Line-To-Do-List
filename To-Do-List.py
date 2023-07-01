@@ -54,8 +54,6 @@ class To_Do_List:
             self.remove_task()
         elif key == "Z":
             self.exit_function()
-        elif key == "S":
-            self.write_function
         
     
 my_list = To_Do_List() #Creating a instance
