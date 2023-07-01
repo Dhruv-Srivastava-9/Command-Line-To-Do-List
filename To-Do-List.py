@@ -40,12 +40,6 @@ class To_Do_List:
     def exit_fuction():
         quit()
 
-    
-    def write_function(self):
-        with open(self.filename, "w") as file:
-            file.write("\n".join(self.tasks))
-        print(f"To-Do List saved to {self.filename}")
-
     #Assign keybinds:
 
     def keybind(self):
